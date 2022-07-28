@@ -10,10 +10,10 @@
 
 In this project I learned about how color combination make your website beautiful and In this I learned about many type of selector and how the direct child selector can be so much useful with pseudo element and this can be seen in my [css file](style.css)
 
-[Visit this website](https://abhi-project-1.netlify.app/)
+[Visit this website](https://abhi-project-4.netlify.app/)
 
 
 #
 
-To see my work visit my [Portfolio]("my-portfolio-website")
+To see my work visit my [Portfolio](https://portfolio-of-abhishek.netlify.app)
 
