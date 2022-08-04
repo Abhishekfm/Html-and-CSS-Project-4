@@ -52,11 +52,12 @@ body{
     justify-content: space-between;
 }
 .banner-container > :first-child{
-    margin-top: 100px;
-    padding-right: 200px;
+    margin-top: 50px;
+    padding-right: 0px;
 }
 .heading-text{
     font-size: 60px;
+    padding-right: 200px;
     font-weight: 800;
 }
 span{
@@ -66,6 +67,7 @@ span{
     margin-top: 40px;
     margin-bottom: 60px;
     font-weight: 100;
+    padding-right: 200px;
 }
 .btn{
     padding: 20px 40px;
@@ -74,4 +76,120 @@ span{
 }
 .btn:hover{
     cursor: pointer;
+}
+.banner-container div:nth-child(2) img{
+    width: 100%;
+}
+.banner-container div:nth-child(2) {
+    width: 120%;
+}
+
+@media screen and (max-width:1200px) {
+    .banner-container div:nth-child(2) img{
+        width: 100%;
+    }
+    .banner-container div:first-child{
+        width: 100%;
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+    .banner-container h1{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:996px) {
+    .banner-container{
+        flex-wrap: wrap;
+    }
+    .navbar-container img{
+        width: 100px;
+        margin-top: 10px;
+    }
+    .list{
+        justify-content: space-around;
+    }
+    .button-group .nav-button{
+        padding: 5px 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+    }
+    .description{
+        padding: 0px;
+        margin: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .banner-container h1{
+        padding-right: 0px;
+    }
+    .list{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width:602px) {
+    .navbar-container{
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .list{
+        justify-content: flex-start;
+        width: fit-content;
+    }
+    .list-item{
+        margin-left: 5px;
+    }
+    .btn-group .nav-button{
+        padding: 2px 5px;
+        margin-top: 10px;
+    }
+    .navbar-container{
+        padding-bottom: 0px;
+        height: 47px;
+    }
+    .btn{
+        padding: 9px 18px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:577px) {
+    .list-item{
+        font-size: 8px;
+    }
+    .banner-container{
+        margin-top: 0px;
+    }
+    .button-group .nav-button{
+        font-size: 5px;
+    }
+    .navbar-container{
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width:352px) {
+    .list{
+        justify-content: flex-start;
+    }
+    .list-item{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .navbar-container img{
+        width: 70px;
+        margin-top: 10px;
+    }
+    .banner-container{
+        margin-left: 10px;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: 13px;
+    }
 }
